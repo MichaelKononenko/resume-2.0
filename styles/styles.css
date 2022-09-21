@@ -1,0 +1,84 @@
+/* color and width set */
+:root {
+  --mobile-width: 300px;
+  --tablet-width: 768px;
+  --desktop-width: 1200px;
+  --primary-background-color: #ffffff;
+}
+
+/* reset */
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-background-color);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+}
+a {
+  color: purple;
+  text-decoration: none;
+  display: block;
+}
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+@media screen and (min-width: 300px) {
+  img {
+    width: 100vw;
+  }
+}
+@media screen and (min-width: 768px) {
+  img {
+    width: 250px;
+  }
+}
+
+/* main styles */
+.content-wrapper {
+  display: flex;
+  /* width: 100vw; */
+  /* @media screen and (min-width: 768px) {
+    display: flex;
+  } */
+}
+
+.container {
+  /* width: 100vw; */
+  /* @media screen and (min-width: 768px) {
+    width: 250px;
+  } */
+}
+
+.main-info__item {
+  list-style: none;
+}
+
+.main-info__item li {
+  list-style: disc;
+}
+
+.experience__list {
+  list-style: none;
+}
+.projects {
+  display: flex;
+  list-style: none;
+}
+.solo-projects li,
+.team-projects li {
+  list-style: disc;
+}
+.projects__title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.solo-projects {
+  margin-right: 50px;
+}
