@@ -16,33 +16,42 @@
   </head>
   <body>
     <div class="content-wrapper">
-      <header>
-        <div class="container">
-          <div class="main-info">
-            <img src="./images/mk-photo.jpg" alt="photo of quality developer" />
-            <h1 class="name">Michael Kononenko</h1>
-            <p class="profession">Full stack developer</p>
-            <ul class="main-info__list">
-              <li class="main-info__item">
-                <!-- Contacts -->
-                <h2 class="main-info__title">Contacts</h2>
-                <ul class="contacts">
-                  <li class="contacts__item">
-                    <a href="mailto:michael.kononenko101@gmail.com">Mail me</a>
-                  </li>
-                  <li class="contacts__item">
-                    <a href="https://t.me/tip_v_ochkah" target="_blank">Telegram</a>
-                  </li>
-                  <li class="contacts__item"><a href="" target="_blank">Linkedin</a></li>
-                  <li class="contacts__item">
-                    <a href="https://github.com/MichaelKononenko" target="_blank">GitHub</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="main-info__item">
-                <!--tech skills-->
-                <h2 class="main-info__title">Tech skills</h2>
-                <ul class="tech-scills tech-scills__list">
+      <header class="header">
+        <!-- <div class="container"> -->
+        <img src="./images/mk-photo.jpg" alt="photo of quality developer" />
+        <div class="main-info">
+          <h1 class="name">Michael Kononenko</h1>
+          <p class="profession">Full stack developer</p>
+          <ul class="main-info__list">
+            <!-- Contacts -->
+            <li class="main-info__item">
+              <h2 class="main-info__title">Contacts</h2>
+              <ul class="contacts">
+                <li class="contacts__item">
+                  <a href="mailto:michael.kononenko101@gmail.com">Mail me</a>
+                </li>
+                <li class="contacts__item">
+                  <a href="https://t.me/tip_v_ochkah" target="_blank">Telegram</a>
+                </li>
+                <li class="contacts__item"><a href="" target="_blank">Linkedin</a></li>
+                <li class="contacts__item">
+                  <a href="https://github.com/MichaelKononenko" target="_blank">GitHub</a>
+                </li>
+              </ul>
+            </li>
+            <!--tech skills-->
+          </ul>
+        </div>
+        <!-- </div> -->
+      </header>
+      <main>
+        <!-- <div class="container"> -->
+        <ul class="skills skills__list">
+          <li class="skills__item">
+            <h2 class="skills__title">Tech skills</h2>
+            <ul class="tech-scills tech-scills__list">
+              <li class="main-tech-skills">
+                <ul class="main-tech-skills__list">
                   <li class="tech-skills__item">
                     <p class="tech-skills__description">HTML</p>
                   </li>
@@ -50,20 +59,42 @@
                   <li class="tech-skills__item">
                     <p class="tech-skills__description">JavaScript</p>
                   </li>
-                  <li class="tech-skills__item"><p class="tech-skills__description">Node.js</p></li>
+                  <li class="tech-skills__item">
+                    <p class="tech-skills__description">Node.js</p>
+                  </li>
                   <li class="tech-skills__item"><p class="tech-skills__description">React</p></li>
+                </ul>
+              </li>
+              <li class="secondary-tech-skills">
+                <ul class="secondary-tech-skills__list">
                   <li class="tech-skills__item"><p class="tech-skills__description">Sass</p></li>
                   <li class="tech-skills__item"><p class="tech-skills__description">Git</p></li>
-                  <li class="tech-skills__item"><p class="tech-skills__description">GitHub</p></li>
-                  <li class="tech-skills__item"><p class="tech-skills__description">MongoDB</p></li>
-                  <li class="tech-skills__item"><p class="tech-skills__description">Webpack</p></li>
+                  <li class="tech-skills__item">
+                    <p class="tech-skills__description">GitHub</p>
+                  </li>
+                  <li class="tech-skills__item">
+                    <p class="tech-skills__description">MongoDB</p>
+                  </li>
+                  <li class="tech-skills__item">
+                    <p class="tech-skills__description">Webpack</p>
+                  </li>
                   <li class="tech-skills__item"><p class="tech-skills__description">Babel</p></li>
                 </ul>
               </li>
-              <li class="main-info__item">
-                <!--soft skills-->
-                <h2 class="main-info__title">Soft skills</h2>
-                <ul class="soft-skills soft-skills__list">
+            </ul>
+          </li>
+          <!--soft skills-->
+          <li class="skills__item">
+            <h2 class="skills__title">Soft skills</h2>
+            <ul class="soft-skills soft-skills__list">
+              <li class="main-soft-skills">
+                <ul class="main-soft-skills__list">
+                  <li class="soft-skills__item">
+                    <p class="soft-skills__description">Scrum</p>
+                  </li>
+                  <li class="soft-skills__item">
+                    <p class="soft-skills__description">Agile</p>
+                  </li>
                   <li class="soft-skills__item">
                     <p class="soft-skills__description">Stress resistance</p>
                   </li>
@@ -82,7 +113,10 @@
                   <li class="soft-skills__item">
                     <p class="soft-skills__description">Problem-solving</p>
                   </li>
-
+                </ul>
+              </li>
+              <li class="secondary-soft-skills">
+                <ul class="secondary-soft-skills__list">
                   <li class="soft-skills__item">
                     <p class="soft-skills__description">Team player</p>
                   </li>
@@ -113,82 +147,80 @@
                 </ul>
               </li>
             </ul>
-          </div>
-        </div>
-      </header>
-      <main>
-        <div class="container">
-          <div class="experience">
-            <ul class="experience__list">
-              <li class="experience__item">
-                <h2 class="projects__title">Projects</h2>
-                <ul class="projects projects__list">
-                  <li class="solo-projects">
-                    <h3 class="solo-projects__title">Solo projects</h3>
-                    <ul class="solo-projects__list">
-                      <li class="solo-projects__item">
-                        <a
-                          href="https://michaelkononenko.github.io/WebStudio-for-portfolio/"
-                          class="solo-projects__link"
-                          target="_blank"
-                          >WebStudio</a
-                        >
-                      </li>
-                      <li class="solo-projects__item">
-                        <a
-                          href="https://michaelkononenko.github.io/pong/"
-                          class="solo-projects__link"
-                          target="_blank"
-                          >Simple pong</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="team-projects">
-                    <h3 class="team-projects__title">Team projects</h3>
-                    <ul class="team-projects__list">
-                      <li class="team-projects__item">
-                        <a
-                          href="https://michaelkononenko.github.io/ice-cream-shop/"
-                          class="solo-projects__link"
-                          target="_blank"
-                          >Ice cream shop</a
-                        >
-                      </li>
-                      <li class="team-projects__item">
-                        <a
-                          href="https://michaelkononenko.github.io/notes/"
-                          class="solo-projects__link"
-                          target="_blank"
-                          >Note book</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="experience__item">
-                <h2 class="work-experience__title">Work experience</h2>
-                <div class="work-experience">
-                  <ul class="work-experience__list">
-                    <li class="work-experience__item">
-                      <h3 class="work-experience__title">Service center engineer</h3>
-                      <p class="work-experience__dates">November 2019 - up to now</p>
+          </li>
+        </ul>
+
+        <div class="experience">
+          <ul class="experience__list">
+            <li class="experience__item">
+              <h2 class="projects__title">Projects</h2>
+              <ul class="projects projects__list">
+                <li class="solo-projects">
+                  <h3 class="solo-projects__title">Solo projects</h3>
+                  <ul class="solo-projects__list">
+                    <li class="solo-projects__item">
+                      <a
+                        href="https://michaelkononenko.github.io/WebStudio-for-portfolio/"
+                        class="solo-projects__link"
+                        target="_blank"
+                        >WebStudio</a
+                      >
                     </li>
-                    <li class="work-experience__item">
-                      <h3 class="work-experience__title">Bartender</h3>
-                      <p class="work-experience__dates">June 2015 - september 2019</p>
+                    <li class="solo-projects__item">
+                      <a
+                        href="https://michaelkononenko.github.io/pong/"
+                        class="solo-projects__link"
+                        target="_blank"
+                        >Simple pong</a
+                      >
                     </li>
                   </ul>
-                </div>
-              </li>
-              <li class="experience__item">
-                <h2 class="education-experience__title">Education</h2>
-                <p class="education-experience__description">GoIt - Full stuck developer</p>
-              </li>
-            </ul>
-          </div>
+                </li>
+                <li class="team-projects">
+                  <h3 class="team-projects__title">Team projects</h3>
+                  <ul class="team-projects__list">
+                    <li class="team-projects__item">
+                      <a
+                        href="https://michaelkononenko.github.io/ice-cream-shop/"
+                        class="solo-projects__link"
+                        target="_blank"
+                        >Ice cream shop</a
+                      >
+                    </li>
+                    <li class="team-projects__item">
+                      <a
+                        href="https://michaelkononenko.github.io/notes/"
+                        class="solo-projects__link"
+                        target="_blank"
+                        >Note book</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="experience__item">
+              <h2 class="work-experience__title">Work experience</h2>
+              <div class="work-experience">
+                <ul class="work-experience__list">
+                  <li class="work-experience__item">
+                    <h3 class="work-experience__title">Service center engineer</h3>
+                    <p class="work-experience__dates">November 2019 - up to now</p>
+                  </li>
+                  <li class="work-experience__item">
+                    <h3 class="work-experience__title">Bartender</h3>
+                    <p class="work-experience__dates">June 2015 - september 2019</p>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="experience__item">
+              <h2 class="education-experience__title">Education</h2>
+              <p class="education-experience__description">GoIt - Full stuck developer</p>
+            </li>
+          </ul>
         </div>
+        <!-- </div> -->
       </main>
     </div>
   </body>
